@@ -7,7 +7,7 @@ const QualityOverQuanitySection = () => {
       <p className="lg:w-4/6 text-center text-gray">
         We focus on the needs on each individual business and tailor content
         around what makes it unique. Our collaborative process is very hands on
-        as we work closely with you to create a website you're 100% happy with
+        as we work closely with you to create a website you&apos;re 100% happy with
         and not something you just settle for.
       </p>
     </div>

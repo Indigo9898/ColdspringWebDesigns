@@ -11,10 +11,10 @@ const WebDesignDoneDiffrentSection = () => {
           Web Design & Development Done Differently
         </p>
         <p className="mb-8 text-gray">
-          What makes us unique in the development world is that we don't use
+          What makes us unique in the development world is that we don&apos;t use
           WordPress, frameworks, or page builders. We meticulously write the
           code line by line. This gives us much more control over the design,
-          and the website performs lightning fast because there's no bloated or
+          and the website performs lightning fast because there&apos;s no bloated or
           messy code that slows it down.
         </p>
         <p className="text-gray">

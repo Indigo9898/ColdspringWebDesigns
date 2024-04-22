@@ -11,7 +11,7 @@ const LogoGraphicsDesignSection = () => {
         <p className="mb-8 text-gray">
           We also offer logo and graphic design services via our own in-house
           graphic designer. If you have an existing logo that needs a touch up
-          or need a completely new one we can help build your business's brand.
+          or need a completely new one we can help build your business&apos;s brand.
         </p>
         <div className="flex mb-8">
           <span className="mr-2">

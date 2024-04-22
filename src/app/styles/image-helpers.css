@@ -1,0 +1,31 @@
+.logo {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+.footer-logo {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+
+
+/* Large Screens And Up */
+@media only screen and (min-width: 1024px) {
+    .lg-logo {
+        position: relative;
+        height: 125px;
+        width: 275px;
+    }
+}
+
+/* XXL Screen Screens And Up */
+@media only screen and (min-width: 1536px) {
+    .xxl-logo {
+        position: relative;
+        height: 150px;
+        width: 400px;
+    }
+}

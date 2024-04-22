@@ -1,0 +1,10 @@
+.gradiant-green-background{
+    background: linear-gradient(#2E8B57, #90EE90);
+}
+
+.gradiant-green-background-interior {
+    position: relative;
+   background: linear-gradient(rgba(10, 40, 20, 0.7), rgba(60, 120, 80, 0.7)) center top, url('./../../../public/forest.jpg');
+    background-size: cover;
+    background-position: center;
+}

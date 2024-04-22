@@ -11,7 +11,13 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "wave":  "url('/wave.svg')"
       },
+      colors:{
+        "main-green": "#2E8B57",
+        "gray": "#646464",
+        "light-green": "#90EE90"
+      }
     },
   },
   plugins: [],

@@ -1,0 +1,68 @@
+.background-hover-green{
+    background: #fff;
+}
+
+.background-hover-green:hover{
+    background-color: #2E8B57;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .background-hover-green:hover {
+      background-color: #2E8B57;
+      color: white;
+    }
+  }
+
+.nav-link{
+    color: white;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #90EE90;
+    cursor: pointer;
+}
+
+.mobile-nav-link{
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.activePage {
+    position: relative; /* Set position to relative to contain the pseudo-element */
+}
+
+.activePage::after {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position the pseudo-element absolutely */
+    bottom: -7px; /* Adjust the distance between the border and the text */
+    left: 0; /* Align the pseudo-element with the text */
+    width: 100%; /* Make the pseudo-element span the full width of its container */
+    height: 2px; /* Set the height to create the border */
+    background-color: #fff; /* Set the color of the border */
+    transition: background-color 0.3s ease;
+}
+
+.activePage:hover::after{
+    background-color: #90EE90;
+}
+
+.activePageMobile {
+    position: relative;
+    color: #2E8B57;
+}
+
+.activePageMobile::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px; /* Adjust the distance between the link and the border */
+    width: 2px; /* Set the width of the border */
+    height: 100%; /* Make the border span the full height of the link */
+    background-color: #2E8B57; /* Set the color of the border */
+    transition: background-color 0.3s; /* Add transition effect for smooth color change */
+}
+

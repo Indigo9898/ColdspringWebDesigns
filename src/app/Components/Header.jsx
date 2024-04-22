@@ -33,7 +33,7 @@ const Header = () => {
               $150/month.
             </p>
           </div>
-          <a className="background-hover-green w-fit h-fit p-5 pr-6 pl-6 text-xs font-bold rounded-md z-10 transition-all">
+          <a className="bg-white hover:bg-main-green w-fit h-fit p-5 pr-6 pl-6 text-xs font-bold rounded-md z-10 transition-all">
             GET IN TOUCH!
           </a>
         </div>

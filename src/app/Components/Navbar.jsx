@@ -70,7 +70,7 @@ const Navbar = (props) => {
       </div>
       <button
         onClick={toggleMenu}
-        className={`hamburger-menu md:hidden z-30 ${showMenu ? "open" : ""}`}
+        className={`hamburger-menu md:hidden z-50 ${showMenu ? "open" : ""}`}
       >
         <span className="line rounded-md"></span>
         <span className="line rounded-md"></span>
@@ -78,7 +78,7 @@ const Navbar = (props) => {
       </button>
       {showMenu && (
         <div
-          className={`absolute z-50 p-6 top-0 right-0 h-screen bg-white w-1/2 flex flex-col items-end text-gray transition-all ${
+          className={`absolute z-40 p-6 top-0 right-0 h-screen bg-white w-1/2 flex flex-col items-end text-gray transition-all ${
             showMenu ? "transform translate-x-0" : "transform translate-x-full"
           }`}
         >

@@ -12,7 +12,7 @@ const AboutMeSection = () => {
           Giving Small Businesses The Big Business Treatment
         </p>
         <p className="text-gray mb-8">
-          At the helm of Coldspring Web Designs, I'm Austen Dyer, a passionate
+          At the helm of Coldspring Web Designs, I&apos;m Austen Dyer, a passionate
           web developer based in Houston, Texas. My mission is simple yet
           profound: giving small businesses the big business treatment they
           deserve in the digital realm. With a solid foundation in computer
@@ -22,16 +22,16 @@ const AboutMeSection = () => {
           that rival those of larger corporations.
         </p>
         <p className="text-gray">
-          What I found was that a lot of small businesses don't have the funds
+          What I found was that a lot of small businesses don&apos;t have the funds
           to spend thousands of dollars upfront on a new website. And the ones
           that did, got taken advantage of and have a terrible website that
-          looks like it was built by someone in a dungeon and haven't seen
+          looks like it was built by someone in a dungeon and haven&apos;t seen
           design trends for the last 10 years. They were in a frustrating spot -
-          they either can't afford a good website, and if they can they don't
+          they either can&apos;t afford a good website, and if they can they don&apos;t
           know who to trust to make something great. So I tweaked my business
-          model to fit their needs. That's how I came up with my $0 down and
-          $150 a month model. It's more managable for a small business to handle
-          and won't hurt their bank accounts.
+          model to fit their needs. That&apos;s how I came up with my $0 down and
+          $150 a month model. It&apos;s more managable for a small business to handle
+          and won&apos;t hurt their bank accounts.
         </p>
       </div>
     </div>

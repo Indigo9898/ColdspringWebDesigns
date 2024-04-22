@@ -44,7 +44,7 @@ const LifetimeWebsiteUpdatesSection = () => {
           <SearchEngineUpdatesImage />
           <p className="font-bold mb-6 mt-6">Search Engine Updates</p>
           <p className="text-gray">
-            Your website will stay up to date with Google's search guidelines
+            Your website will stay up to date with Google&apos;s search guidelines
             for ranking.
           </p>
         </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutMeSection = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 mb-32 text-lg">
-      <div className="flex justify-center items-center mr-16">
+      <div className="flex justify-center items-center w-full mr-16">
         <Image src={"/saving.svg"} width={2000} height={2000} alt="logo" />
       </div>
       <div>

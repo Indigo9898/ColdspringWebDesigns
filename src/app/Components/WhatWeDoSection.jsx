@@ -4,7 +4,7 @@ import OptimizationImage from "./OptimizationImage";
 
 const WhatWeDoSection = () => {
   return (
-    <div className="flex flex-col lg:-mt-12 items-center p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 z-10">
+    <div className="flex flex-col items-center mt-28 p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 z-10">
       <div className="flex">
         <p className="text-main-green text-5xl font-bold  ">WHAT&nbsp;</p>
         <p className="mb-6 text-black text-5xl font-extrabold ">WE DO</p>

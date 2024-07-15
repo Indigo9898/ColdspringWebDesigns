@@ -12,7 +12,7 @@ export default function Page() {
     <main className="flex min-h-screen  flex-col bg-white items-center justify-between overflow-x-hidden">
       <div className="min-h-90screen w-full   flex flex-col items-center">
         {/* Header */}
-        <InterorPageHeading activePage="services" pageName="Services" />
+        <InterorPageHeading activePage="about" pageName="About Us" />
         <div className="min-h-screen flex flex-col items-center text-center bg-white">
           {/* Your main content */}
           <AboutMeSection />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResponsiveImage = () => {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 mt-5'>
       <svg
         aria-hidden="true"
         viewBox="0 0 512 512"

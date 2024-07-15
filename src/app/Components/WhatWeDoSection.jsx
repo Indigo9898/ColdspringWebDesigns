@@ -22,7 +22,7 @@ const WhatWeDoSection = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-3">
         <div className="flex flex-col text-center items-center">
-          <MobileHand />
+          <MobileHand className="mt-4" />
           <p className="font-bold text-lg mb-4 text-black">Mobile-First Design</p>
           <p className="text-gray w-4/6">
             We prioritize mobile optimization, crafting your site for seamless
@@ -30,16 +30,16 @@ const WhatWeDoSection = () => {
             desktops.
           </p>
         </div>
-        <div className="flex flex-col text-center items-center">
-          <ResponsiveImage />
+        <div className="flex flex-col text-center items-center mt-4">
+          <ResponsiveImage className="mt-4"/>
           <p className="font-bold text-lg mb-4 text-black">Fully Responsive</p>
           <p className="text-gray w-4/6">
             Crafted to adapt flawlessly to all screens, our website ensures a
             seamless experience for clients on mobile, tablet, and desktop.
           </p>
         </div>
-        <div className="flex flex-col text-center items-center">
-          <OptimizationImage />
+        <div className="flex flex-col text-center items-center mt-4">
+          <OptimizationImage/>
           <p className="font-bold text-lg mb-4 text-black">Optimization</p>
           <p className="text-gray w-4/6">
             60% of all internet traffic is on mobile devices, so we optimize

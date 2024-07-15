@@ -1,6 +1,6 @@
 const OptimizationImage = () => {
   return (
-    <div className="mb-5">
+    <div className="mb-5 mt-5">
       <svg
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"

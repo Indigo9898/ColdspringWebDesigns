@@ -3,10 +3,10 @@ import Image from "next/image";
 const ContractPlansSection = () => {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 mt-16 items-center 2xl:mt-28 p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 z-10">
-      <div className="flex justify-center  mr-16">
+      <div className="flex justify-center w-full mr-16">
         <Image src={"/saving.svg"} width={2000} height={2000} alt="logo" />
       </div>
-      <div className="">
+      <div className="text-center">
         <p className="text-5xl font-bold mb-8">
           <span className="text-main-green">$0</span> Down,{" "}
           <span className="text-main-green">$150</span> Per Month, 12 Month

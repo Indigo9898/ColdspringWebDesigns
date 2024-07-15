@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className="min-h-95screen relative w-full gradiant-green-background mb-8  p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 flex flex-col items-center">
       {/* Header */}
-      <header className="flex flex-col h-5/6">
+      <header className="flex flex-col h-5/6 mb-6">
         {/* Nav Menu */}
         <Navbar activePage="home" />
 

@@ -1,6 +1,6 @@
 const QualityOverQuanitySection = () => {
   return (
-    <div className="flex flex-col w-full  mb-16 text-lg">
+    <div className="flex flex-col items-center w-full  mb-16 text-lg">
       <p className="text-4xl text-nowrap font-bold mb-8">
         <span className="text-main-green">Quality</span> Over Quanity
       </p>

@@ -13,7 +13,7 @@ export default function Page() {
       <div className="min-h-90screen w-full   flex flex-col items-center">
         {/* Header */}
         <InterorPageHeading activePage="about" pageName="About Us" />
-        <div className="flex flex-col items-center mt-28 p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 z-10">
+        <div className="flex flex-col items-center text-center mt-28 p-8 md:pr-32 md:pl-32  2xl:pr-96 2xl:pl-96 z-10">
           {/* Your main content */}
           <AboutMeSection />
           <QualityOverQuanitySection />
